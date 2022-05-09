@@ -1,4 +1,4 @@
-package entities;
+package com.example.doctorstrage.entities;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -24,5 +24,5 @@ public class Patient {
     @Column(name = "segundo_apellido")
     private String secondLastName;
     @Column(name = "edad")
-    private int old;
+    private Integer old;
 }

@@ -1,6 +1,6 @@
-package dao;
+package com.example.doctorstrage.dao;
 
-import entities.Patient;
+import com.example.doctorstrage.entities.Patient;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
