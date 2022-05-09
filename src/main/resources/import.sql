@@ -1,0 +1,1 @@
+INSERT INTO patient (primer_nombre, segundo_nombre, primer_apellido, segundo_apellido, edad) VALUES ('Kevin', 'Alexander', 'Lima','Recinos', 20);
