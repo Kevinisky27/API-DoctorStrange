@@ -14,17 +14,18 @@ import java.util.Date;
 public class Appointment {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_cita")
     private Long id;
     @ManyToOne(cascade ={CascadeType.PERSIST})
-    @Column(name = "poliza")
+    @JoinColumn(name = "id_poliza")
     private Policy poliza;
-    @Column(name = "fecha")
+    @Column(name = "fecha_cita")
     private Date date;
-    @Column(name = "hora")
+    @Column(name = "hora_cita")
     private Time time;
-    @Column(name = "estado")
+    @Column(name = "estado_cita")
     private String estado;
-    @Column(name = "observacion")
+    @Column(name = "observacion_cita")
     private String observacion;
 }

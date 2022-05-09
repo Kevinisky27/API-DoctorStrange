@@ -14,9 +14,10 @@ import java.util.Date;
 public class Policy {
 
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     @ManyToOne(cascade ={CascadeType.PERSIST})
-    @JoinColumn(name = "id_cliente")
+    @JoinColumn(name = "id_paciente")
     private Patient paciente;
     @Column(name = "estado_poliza")
     private String estado;
@@ -24,5 +25,4 @@ public class Policy {
     private Date fechaInicio;
     @Column(name = "fin_poliza")
     private Date fechaFin;
-
 }
