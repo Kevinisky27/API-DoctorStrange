@@ -19,7 +19,7 @@ La cuál puede acceder en la siguiente ruta, una vez se ejecute el api.
 Desarrollado en el 2022 - Facultad de Ingeniería 🖥📡
 - [Link del Repositorio - Kevinisky27](https://github.com/Kevinisky27/API-DoctorStrange)
 - [Perfil Kevinisky27](https://github.com/Kevinisky27)
-- [Link de Youtube del vídeo explicativo]()
+- [Link de Youtube del vídeo explicativo](https://youtu.be/2Z8Alpye2Uo)
 
 ## Agradecimiento especial
 Un agradecimiento especial al Ingeniero Carlos Hernández, gracias por sus conocimientos impartidos hacia sus estudiantes, sin duda alguna un gran Docente
